@@ -32,7 +32,7 @@ export const SOCIAL_URLS = {
 export const CURRENT_STATUS = {
   label: "TEST BUILD",
   state: "testing" as "testing" | "planning" | "ready",
-  note: "Wersja testowa 0.3.8 — w grze sieciowej serwer pilnuje życia, leczenia, mikstur, umiejętności, zbroi i strzał",
+  note: "Wersja testowa 0.3.9 — szczury biegają, gryzą i padają z prawdziwymi animacjami",
 } as const;
 
 export const CURRENT_YEAR = 2026;

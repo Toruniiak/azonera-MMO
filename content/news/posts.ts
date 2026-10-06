@@ -49,6 +49,36 @@ export interface NewsPost {
 
 export const POSTS: NewsPost[] = [
   {
+    slug: "wersja-0-3-9-animacje-szczurow",
+    title: "Wersja 0.3.9: szczury z prawdziwymi animacjami",
+    date: "2026-10-06",
+    category: "PATCH NOTES",
+    cover: "images/media/szczur-bieg.jpg",
+    description:
+      "Szczury dostały szkielet i własne animacje: truchtają, gryzą, odskakują po trafieniu i przewracają się na bok, gdy giną.",
+    content: [
+      {
+        type: "p",
+        text: "Model szczura powstał z grafiki jako jedna bryła, bez kości, więc do tej pory poruszał się tylko „w całości”. Teraz ma szkielet: kręgosłup, głowę, ogon i cztery łapy. Dzięki temu szczur w spoczynku węszy i kręci ogonem, biegnie drobnym truchtem, przed ugryzieniem przysiada i skacze do przodu, odskakuje po trafieniu, a gdy ginie, przewraca się na bok. Te same animacje ma szczur bagienny.",
+      },
+      {
+        type: "image",
+        src: "images/media/szczur-ugryzienie.jpg",
+        alt: "Szczur gryzie postać gracza",
+        caption: "Ugryzienie szczura — zrzut z automatycznego testu animacji (wersja deweloperska).",
+      },
+      {
+        type: "p",
+        text: "Szkielet dopasowuje się do kształtu modelu sam, dzięki narzędziu, które przygotowaliśmy. Następni w kolejce są inne czworonogi, na przykład wilki.",
+      },
+      {
+        type: "note",
+        text: "Masz już grę? Wersja 0.3.9 pobierze się sama przy następnym uruchomieniu, na PC i na Androidzie. Wszystkie linki są na naszym Discordzie.",
+      },
+    ],
+    tags: ["potwory", "animacje", "szczury", "0.3.9"],
+  },
+  {
     slug: "wersja-0-3-8-serwer-pilnuje-postaci",
     title: "Wersja 0.3.8: serwer pilnuje całej postaci",
     date: "2026-10-06",
