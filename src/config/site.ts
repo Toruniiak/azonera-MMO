@@ -32,7 +32,7 @@ export const SOCIAL_URLS = {
 export const CURRENT_STATUS = {
   label: "TEST BUILD",
   state: "testing" as "testing" | "planning" | "ready",
-  note: "Wersja testowa 0.3.3 — nowy system walki i efektów, autoaktualizacja PC i Android",
+  note: "Wersja testowa 0.3.4 — nawigacja do celu zadania, nowa mapa świata, autoaktualizacja PC i Android",
 } as const;
 
 export const CURRENT_YEAR = 2026;
