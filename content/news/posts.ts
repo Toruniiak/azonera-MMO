@@ -49,6 +49,51 @@ export interface NewsPost {
 
 export const POSTS: NewsPost[] = [
   {
+    slug: "wersja-0-3-8-serwer-pilnuje-postaci",
+    title: "Wersja 0.3.8: serwer pilnuje całej postaci",
+    date: "2026-10-06",
+    category: "PATCH NOTES",
+    cover: "images/media/srv-leczenie.jpg",
+    description:
+      "W grze sieciowej życie, leczenie, mikstury, śmierć, umiejętności, zbroję i strzały liczy teraz serwer. Gra nie przyjmie od gracza „mam pełne życie” ani „mam 100 strzał”.",
+    content: [
+      {
+        type: "p",
+        text: "W wersji 0.3.7 serwer zaczął rozstrzygać walkę z potworami. Teraz pilnuje też całej postaci. Gra, w której jesteś, tylko pokazuje wynik i wysyła prośby: „wypij miksturę”, „rzuć leczenie”, „odródź mnie”. Serwer sprawdza, czy masz przedmiot, manę i czy minął czas odnowienia, liczy efekt i odsyła wynik wszystkim graczom w pobliżu.",
+      },
+      { type: "h2", text: "Co nowego" },
+      {
+        type: "list",
+        items: [
+          "Życie i mana są liczone na serwerze — inni gracze widzą twoje prawdziwe życie",
+          "Leczenie czarem i miksturą: siłę leczenia bierze serwer z czaru i z przedmiotu",
+          "Śmierć i odrodzenie: serwer decyduje, po 3 sekundach przenosi postać do świątyni",
+          "Umiejętności broni i poziom magii rosną na serwerze",
+          "Zbroja chroni według przedmiotów, które serwer widzi na postaci",
+          "Łuk strzela tylko strzałami, które naprawdę masz — serwer je zużywa",
+          "Łup leżący na ziemi nie zmienia właściciela, gdy obok upadnie inny przedmiot",
+          "Postać na cudzym serwerze zaczyna w świątyni z wyposażeniem startowym, a po rozłączeniu wraca twoja postać z gry jednoosobowej",
+        ],
+      },
+      {
+        type: "image",
+        src: "images/media/srv-obrazenia.jpg",
+        alt: "Dwóch graczy po walce z wilkami — paski życia z serwera",
+        caption: "Paski życia nad graczami pochodzą z serwera — zrzut z automatycznego testu gry sieciowej (widok serwera, wersja deweloperska).",
+      },
+      { type: "h2", text: "Jak to sprawdziliśmy" },
+      {
+        type: "p",
+        text: "Automatyczny test uruchamia serwer i graczy, którzy próbują oszukiwać: wysyłają pełne życie, leczenie za 999 999, mikstury, których nie mają, obrażenia za 999 999, umiejętność 999, zbroję, której nie mają, i strzały, których nie kupili. Serwer odrzuca wszystkie te próby. Test sprawdza też śmierć, odrodzenie i powrót do gry po rozłączeniu. Płynność się nie zmieniła: na testowym komputerze (GTX 960, 1080p) świątynia ma ok. 78, a trakt ok. 82 klatki na sekundę.",
+      },
+      {
+        type: "note",
+        text: "Masz już grę? Wersja 0.3.8 pobierze się sama przy następnym uruchomieniu, na PC i na Androidzie. Wszystkie linki są na naszym Discordzie.",
+      },
+    ],
+    tags: ["gra sieciowa", "serwer", "leczenie", "uczciwa gra", "0.3.8"],
+  },
+  {
     slug: "wersja-0-3-7-wspolna-walka",
     title: "Wersja 0.3.7: wspólna walka w grze sieciowej",
     date: "2026-10-06",

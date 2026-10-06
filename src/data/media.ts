@@ -32,6 +32,8 @@ export const MEDIA_NOTE =
   "Wszystkie obrazy i filmy to prawdziwe ujęcia z wersji deweloperskiej gry (Unity 6, bez retuszu). Gra jest w produkcji — wygląd będzie się zmieniał z kolejnymi wersjami.";
 
 export const SCREENSHOTS: MediaShot[] = [
+  { id: "srv-leczenie", src: "images/media/srv-leczenie.jpg", alt: "Dwóch graczy leczy się w grze sieciowej — paski życia z serwera", title: "Leczenie liczy serwer", tag: "GAMEPLAY", wide: true },
+  { id: "srv-odrodzenie", src: "images/media/srv-odrodzenie.jpg", alt: "Gracz odrodzony w świątyni przy Kapłance Elianie", title: "Odrodzenie w świątyni", tag: "GAMEPLAY" },
   { id: "mp-walka", src: "images/media/mp-walka.jpg", alt: "Gracz zdalny Aldric walczy z trzema mglistymi wilkami — widok hosta gry sieciowej", title: "Gra sieciowa — walkę rozstrzyga serwer", tag: "GAMEPLAY", wide: true },
   { id: "mp-dwoch-graczy", src: "images/media/mp-dwoch-graczy.jpg", alt: "Dwóch graczy, Aldric i Berta, na Trakcie Zachodnim", title: "Dwóch graczy na trakcie", tag: "GAMEPLAY" },
   { id: "slice-cel", src: "images/media/slice-cel.jpg", alt: "Kapłanka Eliana i nowe zadanie Ślad we mgle w śledzeniu celów", title: "Ślad we mgle — zadanie u Eliany", tag: "GAMEPLAY", wide: true },
