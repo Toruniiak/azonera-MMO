@@ -32,6 +32,9 @@ export const MEDIA_NOTE =
   "Wszystkie obrazy i filmy to prawdziwe ujęcia z wersji deweloperskiej gry (Unity 6, bez retuszu). Gra jest w produkcji — wygląd będzie się zmieniał z kolejnymi wersjami.";
 
 export const SCREENSHOTS: MediaShot[] = [
+  { id: "ruch-klawiszami", src: "images/media/ruch-klawiszami.jpg", alt: "Postać idzie po skosie klawiszami obok wieży w Morvenhalu", title: "Swobodny ruch w dowolnym kierunku", tag: "GAMEPLAY", wide: true },
+  { id: "ruch-zaulek", src: "images/media/ruch-zaulek.jpg", alt: "Postać przy krytej strzechą chacie w Morvenhalu", title: "Postać sama znajduje drogę", tag: "GAMEPLAY" },
+  { id: "kamera-trakt-potwory", src: "images/media/kamera-trakt-potwory.jpg", alt: "Gracz na Trakcie Zachodnim, obok wilk, szkielet, ork i troll w prawdziwych proporcjach", title: "Potwory w prawdziwej skali", tag: "GAMEPLAY", wide: true },
   { id: "szczur-bieg", src: "images/media/szczur-bieg.jpg", alt: "Szczur biegnie przez trawę na Trakcie Zachodnim", title: "Szczur w biegu", tag: "GAMEPLAY" },
   { id: "srv-leczenie", src: "images/media/srv-leczenie.jpg", alt: "Dwóch graczy leczy się w grze sieciowej — paski życia z serwera", title: "Leczenie liczy serwer", tag: "GAMEPLAY", wide: true },
   { id: "srv-odrodzenie", src: "images/media/srv-odrodzenie.jpg", alt: "Gracz odrodzony w świątyni przy Kapłance Elianie", title: "Odrodzenie w świątyni", tag: "GAMEPLAY" },

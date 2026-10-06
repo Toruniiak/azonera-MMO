@@ -49,6 +49,87 @@ export interface NewsPost {
 
 export const POSTS: NewsPost[] = [
   {
+    slug: "wersja-0-3-11-swobodny-ruch",
+    title: "Wersja 0.3.11: swobodny ruch postaci",
+    date: "2026-10-07",
+    category: "PATCH NOTES",
+    cover: "images/media/ruch-klawiszami.jpg",
+    description:
+      "Postać nie skacze już z pola na pole. Chodzisz w dowolnym kierunku, płynnie ruszasz i hamujesz, a po kliknięciu w teren postać staje dokładnie tam, gdzie kliknąłeś.",
+    content: [
+      {
+        type: "p",
+        text: "Do tej pory postać poruszała się po niewidocznej kratce: krok za krokiem, w ośmiu kierunkach. Teraz ruch jest swobodny. Klawiszami (albo padem) idziesz w dowolnym kierunku względem kamery, postać płynnie przyspiesza, hamuje i obraca się w stronę ruchu.",
+      },
+      {
+        type: "image",
+        src: "images/media/ruch-klawiszami.jpg",
+        alt: "Postać idzie po skosie obok wieży w Morvenhalu",
+        caption: "Ruch po skosie klawiszami — zrzut z automatycznego testu (wersja deweloperska).",
+      },
+      {
+        type: "list",
+        items: [
+          "Klik w teren: postać sama wyznacza drogę, omija przeszkody i staje dokładnie w klikniętym punkcie.",
+          "Przy ścianie postać nie zatrzymuje się w miejscu, tylko ślizga się wzdłuż niej.",
+          "Gdy droga jest zamknięta, na przykład między chatą a manekinem treningowym, postać sama się wycofuje i obchodzi przeszkodę.",
+          "Serwer gry pilnuje, żeby nikt nie przeszedł przez ścianę ani budynek, także w grze sieciowej.",
+        ],
+      },
+      {
+        type: "image",
+        src: "images/media/ruch-zaulek.jpg",
+        alt: "Postać przy chacie w Morvenhalu",
+        caption: "Postać wychodzi z ciasnego zaułka przy chacie — zrzut z automatycznego testu (wersja deweloperska).",
+      },
+      {
+        type: "p",
+        text: "Przy okazji gra działa trochę płynniej: w naszym teście wydajności średnio kilka klatek na sekundę więcej niż w poprzedniej wersji.",
+      },
+      {
+        type: "note",
+        text: "Masz już grę? Wersja 0.3.11 pobierze się sama przy następnym uruchomieniu, na PC i na Androidzie. Wszystkie linki są na naszym Discordzie.",
+      },
+    ],
+    tags: ["ruch", "sterowanie", "rozgrywka", "0.3.11"],
+  },
+  {
+    slug: "wersja-0-3-10-kamera-i-skala-swiata",
+    title: "Wersja 0.3.10: nowa kamera i prawdziwa skala świata",
+    date: "2026-10-06",
+    category: "PATCH NOTES",
+    cover: "images/media/kamera-trakt-potwory.jpg",
+    description:
+      "Kamera patrzy na świat z ukosa i trzyma postać w środku kadru. Postać ma 1,8 m wzrostu, a potwory, NPC i budynki dostały proporcje dopasowane do niej.",
+    content: [
+      {
+        type: "p",
+        text: "Przebudowaliśmy kamerę i skalę całego świata. Kamera patrzy z ukosa, z góry, płynnie podąża za postacią i pokazuje więcej terenu wokół niej. Jeden metr w grze to teraz naprawdę jeden metr: postać ma 1,8 m wzrostu i stoi stopami na ziemi.",
+      },
+      {
+        type: "image",
+        src: "images/media/kamera-trakt-potwory.jpg",
+        alt: "Gracz na Trakcie Zachodnim, obok wilk, szkielet, ork i troll",
+        caption: "Wilk, szkielet, ork i troll w proporcjach do postaci — zrzut z automatycznego testu (wersja deweloperska).",
+      },
+      {
+        type: "p",
+        text: "Wszystkie modele zostały zmierzone automatycznie i dopasowane: szczur jest mały, wilk sięga postaci do pasa, troll i cyklop górują nad nią, a domy i bramy mają drzwi na wysokość człowieka.",
+      },
+      {
+        type: "image",
+        src: "images/media/kamera-swiatynia.jpg",
+        alt: "Świątynia w Morvenhalu w nowym ujęciu kamery",
+        caption: "Świątynia w Morvenhalu w nowym ujęciu kamery — zrzut z automatycznego testu (wersja deweloperska).",
+      },
+      {
+        type: "note",
+        text: "Masz już grę? Nowe wersje pobierają się same przy uruchomieniu, na PC i na Androidzie. Wszystkie linki są na naszym Discordzie.",
+      },
+    ],
+    tags: ["kamera", "świat", "grafika", "0.3.10"],
+  },
+  {
     slug: "wersja-0-3-9-animacje-szczurow",
     title: "Wersja 0.3.9: szczury z prawdziwymi animacjami",
     date: "2026-10-06",
