@@ -1,6 +1,6 @@
-import { DISCORD_URL } from "@/config/site";
+import { DISCORD_URL, FACEBOOK_URL } from "@/config/site";
 import { asset } from "@/lib/format";
-import { Reveal, IconDiscord } from "@/components/ui";
+import { Reveal, IconDiscord, IconFacebook } from "@/components/ui";
 
 export default function DiscordCTA() {
   return (
@@ -50,10 +50,19 @@ export default function DiscordCTA() {
                 className="btn btn-primary cut w-full !px-6 !py-4 text-[13px]"
               >
                 <IconDiscord className="h-5 w-5" />
-                Join Azonera Discord
+                Dołącz do Discorda
+              </a>
+              <a
+                href={FACEBOOK_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-ghost cut mt-3 w-full !px-6 !py-3.5 text-[13px]"
+              >
+                <IconFacebook className="h-5 w-5" />
+                Obserwuj na Facebooku
               </a>
               <p className="mt-3 text-center text-[11px] uppercase tracking-[0.22em] text-dim">
-                Testy · Aktualizacje · Feedback
+                Testy · Aktualizacje · Zrzuty z gry
               </p>
             </div>
           </Reveal>

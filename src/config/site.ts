@@ -17,11 +17,13 @@ export const SITE_DESCRIPTION =
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://toruniiak.github.io/azonera-MMO";
 
-/** Jedyne oficjalne social medium — nie dodawaj linków, które nie istnieją. */
-export const DISCORD_URL = "https://discord.gg/eP6ErqrNQF";
+/** Oficjalne kanały społeczności — nie dodawaj linków, które nie istnieją. */
+export const DISCORD_URL = "https://discord.gg/7VeNS7J9jW";
+export const FACEBOOK_URL = "https://www.facebook.com/profile.php?id=61595007780513";
 
 export const SOCIAL_URLS = {
   discord: DISCORD_URL,
+  facebook: FACEBOOK_URL,
 } as const;
 
 /**

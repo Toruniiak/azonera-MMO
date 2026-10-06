@@ -3,8 +3,8 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { DISCORD_URL, SITE_NAME, CURRENT_STATUS } from "@/config/site";
-import { IconDiscord } from "@/components/ui";
+import { DISCORD_URL, FACEBOOK_URL, SITE_NAME, CURRENT_STATUS } from "@/config/site";
+import { IconDiscord, IconFacebook } from "@/components/ui";
 import { Sigil } from "@/components/ui";
 
 const NAV = [
@@ -96,6 +96,16 @@ export default function Header() {
 
         <div className="flex items-center gap-3">
           <a
+            href={FACEBOOK_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-ghost cut-sm hidden !py-2.5 !px-3 sm:inline-flex"
+            aria-label="Azonera MMO na Facebooku"
+            title="Facebook"
+          >
+            <IconFacebook className="h-4 w-4" />
+          </a>
+          <a
             href={DISCORD_URL}
             target="_blank"
             rel="noopener noreferrer"
@@ -177,6 +187,15 @@ export default function Header() {
           >
             <IconDiscord className="h-4 w-4" />
             Dołącz do Discorda
+          </a>
+          <a
+            href={FACEBOOK_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-ghost cut mt-3 w-full"
+          >
+            <IconFacebook className="h-4 w-4" />
+            Obserwuj na Facebooku
           </a>
 
           <p className="mt-6 flex items-center gap-2 text-[11px] uppercase tracking-[0.22em] text-dim">

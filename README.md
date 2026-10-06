@@ -26,7 +26,7 @@ automatyczny deployment na **GitHub Pages**.
   feedbacku (frontend, uczciwy status "coming soon")
 - **Download Center** — klienty PC (Windows) i Android; linki do wydania
   testowego w `src/config/downloads.ts`
-- **Discord** — jeden oficjalny link: `https://discord.gg/eP6ErqrNQF`
+- **Społeczność** — Discord `https://discord.gg/7VeNS7J9jW`, Facebook `https://www.facebook.com/profile.php?id=61595007780513`
 - SEO (OG/Twitter/canonical/sitemap/robots/manifest/favicon), 404,
   mobile-first (360px → 1920px), dostępność (ARIA, klawiatura, focus states)
 
@@ -206,4 +206,5 @@ azonera-mmo-site/
 ---
 
 **AZONERA MMO** — własny świat MMORPG w produkcji.
-Discord: <https://discord.gg/eP6ErqrNQF>
+Discord: <https://discord.gg/7VeNS7J9jW>  
+Facebook: <https://www.facebook.com/profile.php?id=61595007780513>

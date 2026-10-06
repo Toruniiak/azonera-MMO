@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { SITE_NAME, SITE_TAGLINE, DISCORD_URL, CURRENT_STATUS, CURRENT_YEAR } from "@/config/site";
-import { Sigil, IconDiscord } from "@/components/ui";
+import { SITE_NAME, SITE_TAGLINE, DISCORD_URL, FACEBOOK_URL, CURRENT_STATUS, CURRENT_YEAR } from "@/config/site";
+import { Sigil, IconDiscord, IconFacebook } from "@/components/ui";
 
 const NAV_COLS = [
   {
@@ -80,15 +80,26 @@ export default function Footer() {
               Centrum testów, aktualizacji i feedbacku. Cała społeczność Azonery
               łączy się w jednym miejscu.
             </p>
-            <a
-              href={DISCORD_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-ghost cut-sm mt-5 !px-4 !py-2.5"
-            >
-              <IconDiscord className="h-4 w-4" />
-              Discord
-            </a>
+            <div className="mt-5 flex flex-wrap gap-3">
+              <a
+                href={DISCORD_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-ghost cut-sm !px-4 !py-2.5"
+              >
+                <IconDiscord className="h-4 w-4" />
+                Discord
+              </a>
+              <a
+                href={FACEBOOK_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-ghost cut-sm !px-4 !py-2.5"
+              >
+                <IconFacebook className="h-4 w-4" />
+                Facebook
+              </a>
+            </div>
           </div>
         </div>
 
