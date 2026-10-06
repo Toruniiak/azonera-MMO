@@ -32,6 +32,8 @@ export const MEDIA_NOTE =
   "Wszystkie obrazy i filmy to prawdziwe ujęcia z wersji deweloperskiej gry (Unity 6, bez retuszu). Gra jest w produkcji — wygląd będzie się zmieniał z kolejnymi wersjami.";
 
 export const SCREENSHOTS: MediaShot[] = [
+  { id: "mp-walka", src: "images/media/mp-walka.jpg", alt: "Gracz zdalny Aldric walczy z trzema mglistymi wilkami — widok hosta gry sieciowej", title: "Gra sieciowa — walkę rozstrzyga serwer", tag: "GAMEPLAY", wide: true },
+  { id: "mp-dwoch-graczy", src: "images/media/mp-dwoch-graczy.jpg", alt: "Dwóch graczy, Aldric i Berta, na Trakcie Zachodnim", title: "Dwóch graczy na trakcie", tag: "GAMEPLAY" },
   { id: "slice-cel", src: "images/media/slice-cel.jpg", alt: "Kapłanka Eliana i nowe zadanie Ślad we mgle w śledzeniu celów", title: "Ślad we mgle — zadanie u Eliany", tag: "GAMEPLAY", wide: true },
   { id: "slice-walka", src: "images/media/slice-walka.jpg", alt: "Walka z mglistymi wilkami na Trakcie Zachodnim", title: "Mgliste wilki na trakcie", tag: "GAMEPLAY" },
   { id: "slice-ukonczony", src: "images/media/slice-ukonczony.jpg", alt: "Cele zadania ukończone — powrót do Kapłanki Eliany", title: "Cele ukończone", tag: "GAMEPLAY" },

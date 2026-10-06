@@ -49,6 +49,50 @@ export interface NewsPost {
 
 export const POSTS: NewsPost[] = [
   {
+    slug: "wersja-0-3-7-wspolna-walka",
+    title: "Wersja 0.3.7: wspólna walka w grze sieciowej",
+    date: "2026-10-06",
+    category: "PATCH NOTES",
+    cover: "images/media/mp-walka.jpg",
+    description:
+      "W grze sieciowej potwory, obrażenia, doświadczenie, łup i nagrody liczy teraz serwer. Dwóch graczy widzi te same potwory, a łup należy do tego, kto go zdobył.",
+    content: [
+      {
+        type: "p",
+        text: "Do tej pory w grze sieciowej każdy gracz miał swoje potwory. Od wersji 0.3.7 świat potworów jest jeden i prowadzi go serwer (gracz, który założył grę). Gdy atakujesz wilka, gra wysyła prośbę, a serwer sprawdza zasięg, broń i czas ciosu, liczy obrażenia i rozsyła wynik wszystkim graczom w pobliżu.",
+      },
+      { type: "h2", text: "Co nowego" },
+      {
+        type: "list",
+        items: [
+          "Wspólne potwory: wszyscy widzą tego samego wilka, jego życie, ataki i śmierć",
+          "Doświadczenie liczy serwer — przy wspólnej walce dzieli się według zadanych obrażeń",
+          "Łup ma właściciela: przez 2 minuty może go podnieść tylko gracz, który zabił potwora, potem każdy",
+          "Ten sam przedmiot nie trafi do dwóch plecaków, nawet gdy dwie osoby klikną w tej samej chwili",
+          "Zadanie „Ślad we mgle” działa w grze sieciowej: każdy ma własny postęp, a nagroda przychodzi tylko raz",
+          "Po zerwaniu połączenia wracasz z tym samym poziomem, doświadczeniem, zadaniami i łupem",
+          "Serwer odrzuca nierealne skoki pozycji i zgłoszenia, których gracz nie mógł zrobić",
+        ],
+      },
+      {
+        type: "image",
+        src: "images/media/mp-dwoch-graczy.jpg",
+        alt: "Dwóch graczy, Aldric i Berta, na Trakcie Zachodnim",
+        caption: "Dwóch graczy przy watasze mglistych wilków — zrzut z automatycznego testu gry sieciowej (widok serwera, wersja deweloperska).",
+      },
+      { type: "h2", text: "Jak to sprawdziliśmy" },
+      {
+        type: "p",
+        text: "Automatyczny test uruchamia serwer i dwóch graczy. Gracz A bierze zadanie, walczy z wilkami i zbiera łup, a gracz B próbuje go podnieść, podszyć się pod zabicie albo dostać cudzą nagrodę. Test sprawdza też wyścig dwóch graczy o ten sam przedmiot, rozłączenie w trakcie walki i powrót do gry. Płynność gry się nie pogorszyła: na testowym komputerze (GTX 960, 1080p) trakt ma ok. 82 klatki na sekundę.",
+      },
+      {
+        type: "note",
+        text: "Masz już grę? Wersja 0.3.7 pobierze się sama przy następnym uruchomieniu, na PC i na Androidzie. Wszystkie linki są na naszym Discordzie.",
+      },
+    ],
+    tags: ["gra sieciowa", "walka", "łup", "serwer", "0.3.7"],
+  },
+  {
     slug: "wersja-0-3-6-pierwsza-petla",
     title: "Wersja 0.3.6: pierwsza pełna pętla gry i płynność",
     date: "2026-10-06",

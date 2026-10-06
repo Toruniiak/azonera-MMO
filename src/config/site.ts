@@ -32,7 +32,7 @@ export const SOCIAL_URLS = {
 export const CURRENT_STATUS = {
   label: "TEST BUILD",
   state: "testing" as "testing" | "planning" | "ready",
-  note: "Wersja testowa 0.3.6 — pierwsza pełna pętla gry (zadanie „Ślad we mgle”), dużo płynniej poza miastem",
+  note: "Wersja testowa 0.3.7 — wspólna walka w grze sieciowej: potwory, łup i nagrody pilnowane przez serwer",
 } as const;
 
 export const CURRENT_YEAR = 2026;
