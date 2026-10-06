@@ -49,6 +49,49 @@ export interface NewsPost {
 
 export const POSTS: NewsPost[] = [
   {
+    slug: "wersja-0-3-6-pierwsza-petla",
+    title: "Wersja 0.3.6: pierwsza pełna pętla gry i płynność",
+    date: "2026-10-06",
+    category: "PATCH NOTES",
+    cover: "images/media/slice-cel.jpg",
+    description:
+      "Jedno zadanie od początku do końca — rozmowa, walka, łup, powrót i nagroda — sprawdzone automatycznym testem. Do tego duży skok płynności poza miastem i jaśniejszy świat.",
+    content: [
+      {
+        type: "p",
+        text: "Zamiast budować kolejne lokacje, dopracowaliśmy jeden kawałek Azonery tak, żeby działał jak prawdziwa gra. Kapłanka Eliana w świątyni Morvenhalu daje nowe zadanie: „Ślad we mgle”. Za zachodnią bramą, na trakcie do Brzasku, krążą mgliste wilki. Trzeba je pokonać, zdobyć Kieł z mgły i wrócić po nagrodę.",
+      },
+      { type: "h2", text: "Co nowego" },
+      {
+        type: "list",
+        items: [
+          "Zadanie „Ślad we mgle” — wilki pojawiają się dopiero po przyjęciu zadania, a przedmiot z nich trzeba podnieść i oddać",
+          "Cel zadania na ekranie: „Pokonaj mgliste wilki 2 / 3”, potem „Cele ukończone — oddaj zadanie”",
+          "Podpowiedź pod kursorem: widać od razu, czy klik zaatakuje, porozmawia, czy podniesie przedmiot",
+          "NPC odwraca się do ciebie, gdy z nim rozmawiasz",
+          "Mniej okien na ekranie: plecak (I) i postać (C) otwierasz, kiedy ich potrzebujesz — świat jest najważniejszy",
+          "Jaśniejszy świat i suwak „Jasność” w ustawieniach grafiki (0.3.5)",
+        ],
+      },
+      {
+        type: "image",
+        src: "images/media/slice-walka.jpg",
+        alt: "Walka z mglistymi wilkami na Trakcie Zachodnim",
+        caption: "Mgliste wilki na Trakcie Zachodnim — zrzut z automatycznego testu gry (wersja deweloperska).",
+      },
+      { type: "h2", text: "Płynność" },
+      {
+        type: "p",
+        text: "Zmierzyliśmy, co spowalniało grę poza miastem: potwory szukały drogi do celu, którego nie mogły osiągnąć, i robiły to w każdej klatce, a cały świat — ponad tysiąc potworów — był liczony naraz, nawet daleko od gracza. Teraz potwory poza zasięgiem wzroku odpoczywają, a szukanie drogi jest dużo lżejsze. Na testowym komputerze (GTX 960, 1080p, wysokie ustawienia) walka na trakcie wzrosła z ok. 32 do ok. 75 klatek na sekundę, a przycięcia zniknęły.",
+      },
+      {
+        type: "note",
+        text: "Masz już grę? Wersja 0.3.6 pobierze się sama przy następnym uruchomieniu, na PC i na Androidzie. Wszystkie linki są na naszym Discordzie.",
+      },
+    ],
+    tags: ["zadania", "walka", "wydajność", "interfejs", "0.3.6"],
+  },
+  {
     slug: "wersja-0-3-3-walka",
     title: "Wersja 0.3.3: walka od nowa",
     date: "2026-10-06",

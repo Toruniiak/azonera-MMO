@@ -32,6 +32,9 @@ export const MEDIA_NOTE =
   "Wszystkie obrazy i filmy to prawdziwe ujęcia z wersji deweloperskiej gry (Unity 6, bez retuszu). Gra jest w produkcji — wygląd będzie się zmieniał z kolejnymi wersjami.";
 
 export const SCREENSHOTS: MediaShot[] = [
+  { id: "slice-cel", src: "images/media/slice-cel.jpg", alt: "Kapłanka Eliana i nowe zadanie Ślad we mgle w śledzeniu celów", title: "Ślad we mgle — zadanie u Eliany", tag: "GAMEPLAY", wide: true },
+  { id: "slice-walka", src: "images/media/slice-walka.jpg", alt: "Walka z mglistymi wilkami na Trakcie Zachodnim", title: "Mgliste wilki na trakcie", tag: "GAMEPLAY" },
+  { id: "slice-ukonczony", src: "images/media/slice-ukonczony.jpg", alt: "Cele zadania ukończone — powrót do Kapłanki Eliany", title: "Cele ukończone", tag: "GAMEPLAY" },
   { id: "morvenhal-noc", src: "images/hero.jpg", alt: "Morvenhal nocą — portowe miasto z murami i świątynią", title: "Morvenhal nocą", tag: "SCREENSHOT", wide: true },
   { id: "morvenhal-dzien", src: "images/media/morvenhal-dzien.jpg", alt: "Morvenhal w dzień — ulice, NPC i budynki miasta", title: "Morvenhal w dzień", tag: "SCREENSHOT" },
   { id: "swiatynia", src: "images/media/swiatynia.jpg", alt: "Świątynia startowa i Kapłanka Eliana ze znacznikiem zadania", title: "Świątynia — start postaci", tag: "SCREENSHOT" },
