@@ -32,7 +32,7 @@ export const SOCIAL_URLS = {
 export const CURRENT_STATUS = {
   label: "TEST BUILD",
   state: "testing" as "testing" | "planning" | "ready",
-  note: "Wersja testowa 0.3.11 — swobodny ruch postaci w dowolnym kierunku, nowa kamera i prawdziwa skala świata",
+  note: "Wersja testowa 0.3.12 — nowy świat: Placówka Azonery, Zielone Łąki i Stary Trakt w słonecznej złotej godzinie",
 } as const;
 
 export const CURRENT_YEAR = 2026;

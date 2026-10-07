@@ -49,6 +49,52 @@ export interface NewsPost {
 
 export const POSTS: NewsPost[] = [
   {
+    slug: "wersja-0-3-12-nowy-swiat",
+    title: "Wersja 0.3.12: nowy świat — Prolog",
+    date: "2026-10-07",
+    category: "PATCH NOTES",
+    cover: "images/media/nowy-swiat-placowka.jpg",
+    description:
+      "Azonera dostała nowy świat zbudowany według planu całej mapy. Na start: Placówka Azonery, Zielone Łąki i Stary Trakt — około dwóch kilometrów drogi z wiatrakiem, kamiennym kręgiem, mostem, strażnicą i obozem bandytów.",
+    content: [
+      {
+        type: "p",
+        text: "Przygotowaliśmy plan całego świata Azonery: dziesięć aktów od pierwszej osady aż po finał na setnym poziomie. Każda kraina ma główną drogę, osadę, landmarki widoczne z daleka, sekrety, łowiska i bossa. Dziś wchodzi pierwszy fragment — Prolog.",
+      },
+      {
+        type: "image",
+        src: "images/media/nowy-swiat-placowka.jpg",
+        alt: "Rynek Placówki Azonery w ciepłym świetle",
+        caption: "Placówka Azonery — tu zaczyna każda nowa postać. Zrzut z automatycznego testu gry (wersja deweloperska).",
+      },
+      {
+        type: "list",
+        items: [
+          "Placówka Azonery: kaplica, w której zaczynasz i do której wracasz po śmierci, kupiec, kowal, bank i depozyt, mistrz ćwiczeń z manekinami.",
+          "Zielone Łąki: Stary Wiatrak, Kamienny Krąg, Samotny Dąb, sad, chata pasterza i staw. Pierwsze szczury, żmije i wilki.",
+          "Stary Trakt: zrujnowana zagroda, stary most nad rzeką, wilczy jar, stara strażnica i obóz bandytów z ich hersztem.",
+          "Sekrety ze skrzyniami — trzeba zejść z głównej drogi i dobrze się rozglądać.",
+          "Leśna Brama na końcu traktu prowadzi do aktu I. Na razie jest zamknięta i otworzy się w kolejnej aktualizacji.",
+        ],
+      },
+      {
+        type: "image",
+        src: "images/media/nowy-swiat-kamien-podrozy.jpg",
+        alt: "Okno szybkiej podróży przy kamieniu podróży",
+        caption: "Kamienie podróży: odnajdź, dotknij, a potem wracaj do nich w mgnieniu oka. Zrzut z automatycznego testu (wersja deweloperska).",
+      },
+      {
+        type: "p",
+        text: "Świat dostał też nowe światło: zamiast ciemnej nocy — ciepła, słoneczna złota godzina z długimi cieniami. Mapa jest odkrywana stopniowo, a każda kraina liczy, ile już w niej znalazłeś.",
+      },
+      {
+        type: "note",
+        text: "Masz już grę? Wersja 0.3.12 pobierze się sama przy następnym uruchomieniu, na PC i na Androidzie. Postać zacznie w kaplicy Placówki. Wszystkie linki są na naszym Discordzie.",
+      },
+    ],
+    tags: ["świat", "mapa", "prolog", "0.3.12"],
+  },
+  {
     slug: "wersja-0-3-11-swobodny-ruch",
     title: "Wersja 0.3.11: swobodny ruch postaci",
     date: "2026-10-07",

@@ -32,6 +32,9 @@ export const MEDIA_NOTE =
   "Wszystkie obrazy i filmy to prawdziwe ujęcia z wersji deweloperskiej gry (Unity 6, bez retuszu). Gra jest w produkcji — wygląd będzie się zmieniał z kolejnymi wersjami.";
 
 export const SCREENSHOTS: MediaShot[] = [
+  { id: "nowy-swiat-placowka", src: "images/media/nowy-swiat-placowka.jpg", alt: "Rynek Placówki Azonery w ciepłym świetle złotej godziny", title: "Placówka Azonery — nowy start", tag: "GAMEPLAY", wide: true },
+  { id: "nowy-swiat-laki", src: "images/media/nowy-swiat-laki.jpg", alt: "Postać na Zielonych Łąkach w słońcu", title: "Zielone Łąki", tag: "GAMEPLAY" },
+  { id: "nowy-swiat-kamien-podrozy", src: "images/media/nowy-swiat-kamien-podrozy.jpg", alt: "Okno szybkiej podróży przy kamieniu podróży", title: "Kamienie podróży", tag: "GAMEPLAY" },
   { id: "ruch-klawiszami", src: "images/media/ruch-klawiszami.jpg", alt: "Postać idzie po skosie klawiszami obok wieży w Morvenhalu", title: "Swobodny ruch w dowolnym kierunku", tag: "GAMEPLAY", wide: true },
   { id: "ruch-zaulek", src: "images/media/ruch-zaulek.jpg", alt: "Postać przy krytej strzechą chacie w Morvenhalu", title: "Postać sama znajduje drogę", tag: "GAMEPLAY" },
   { id: "kamera-trakt-potwory", src: "images/media/kamera-trakt-potwory.jpg", alt: "Gracz na Trakcie Zachodnim, obok wilk, szkielet, ork i troll w prawdziwych proporcjach", title: "Potwory w prawdziwej skali", tag: "GAMEPLAY", wide: true },
