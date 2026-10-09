@@ -49,6 +49,59 @@ export interface NewsPost {
 
 export const POSTS: NewsPost[] = [
   {
+    slug: "wersja-0-3-13-mapa-lasy-kopalnia",
+    title: "Wersja 0.3.13: mapa świata, nowe potwory i Opuszczona Kopalnia",
+    date: "2026-10-09",
+    category: "PATCH NOTES",
+    cover: "images/media/v13-las-przeswit.jpg",
+    description:
+      "Prolog wygląda teraz jak prawdziwy świat: gęste lasy, zagajniki, ruiny i obozowiska, żywa Placówka, nowe potwory w 3D, mapa świata pod klawiszem M i pierwszy loch z bossem.",
+    content: [
+      {
+        type: "p",
+        text: "Ta aktualizacja to wielkie wypełnienie Prologu. Łąki i trakt przestały być pustą zielenią — dostały gęste lasy, polany, zagajniki, ruiny, porzucone obozowiska i skały porośnięte grzybami. Wszystko zbudowaliśmy z nowej paczki grafik w stylu Azonery.",
+      },
+      {
+        type: "image",
+        src: "images/media/v13-las-przeswit.jpg",
+        alt: "Postać w środku gęstego lasu, korony drzew nad nią są przezroczyste",
+        caption: "Prześwit lasu: drzewa nad postacią stają się przezroczyste, więc bohater nigdy nie ginie w gąszczu. Zrzut z gry (wersja deweloperska).",
+      },
+      {
+        type: "list",
+        items: [
+          "Mapa świata pod klawiszem M — pergamin z lasami, drogami i rzeką. Nieodkryte miejsca kryje mgła, a kliknięcie w mapę wysyła postać w to miejsce.",
+          "Nowe potwory w 3D z animacjami: dzik, żmija, zielony szlam, Watażka Wilków, bandyci i ich Herszt. Wilki chodzą stadem — zaatakujesz jednego, przybiegną pozostałe.",
+          "Placówka tętni życiem: plac z posągiem, targ z kramami i latarniami, kuźnia, cmentarzyk za kaplicą, a za palisadą zagrody i pole.",
+          "Nowy loch: Opuszczona Kopalnia na północ od czat bandytów — gobliny, szkielety górników i boss Szaman Głębin. Polecany poziom 6–9.",
+          "11 zadań prologu prowadzi od pierwszej rozmowy w Placówce aż do Leśnej Bramy, a zwiadowczyni za mostem zleci wyprawę do kopalni.",
+          "Kamera jest dalej od postaci — widać więcej świata, jak w grach akcji. Grafika na mocniejszych komputerach w jakości Ultra.",
+        ],
+      },
+      {
+        type: "image",
+        src: "images/media/v13-placowka-rynek.jpg",
+        alt: "Rynek Placówki z kramami i mieszkańcami",
+        caption: "Placówka Azonery — rynek, kupiec, komendant i kapłanka. Zrzut z gry (wersja deweloperska).",
+      },
+      {
+        type: "image",
+        src: "images/media/v13-oboz-bandytow.jpg",
+        alt: "Walka z bandytami i Hersztem w obozie",
+        caption: "Obóz Bandytów i Herszt z własnym paskiem życia. Zrzut z automatycznego testu (wersja deweloperska).",
+      },
+      {
+        type: "p",
+        text: "Każde łowisko ma teraz własny wystrój: nory i gruz u szczurów, pajęczyny i martwe drzewa u pająków, kości i skały u wilków, zarośla u dzików. Środek zostaje wolny, żeby było gdzie walczyć.",
+      },
+      {
+        type: "note",
+        text: "Masz już grę? Wersja 0.3.13 pobierze się sama przy następnym uruchomieniu, na PC i na Androidzie. Wszystkie linki są na naszym Discordzie.",
+      },
+    ],
+    tags: ["świat", "mapa", "potwory", "loch", "0.3.13"],
+  },
+  {
     slug: "wersja-0-3-12-nowy-swiat",
     title: "Wersja 0.3.12: nowy świat — Prolog",
     date: "2026-10-07",
