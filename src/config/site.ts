@@ -32,7 +32,7 @@ export const SOCIAL_URLS = {
 export const CURRENT_STATUS = {
   label: "TEST BUILD",
   state: "testing" as "testing" | "planning" | "ready",
-  note: "Wersja testowa 0.3.14 — nowe expowiska w Zielonych Łąkach: 14 grup potworów od Placówki po głęboki las",
+  note: "Wersja testowa 0.3.15 — 39 nowych grup potworów na łąkach wokół Placówki",
 } as const;
 
 export const CURRENT_YEAR = 2026;
