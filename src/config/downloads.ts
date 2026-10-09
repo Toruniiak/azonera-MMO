@@ -41,7 +41,7 @@ export const PC_BUILD: ClientBuild = {
   platform: "Windows",
   version: "v0.3.14",
   releaseDate: "2026-10-07",
-  fileSize: "1,0 GB",
+  fileSize: "1,6 GB",
   url: RELEASES + "azonera_windows_14.zip",
   notes:
     "Wersja testowa. Rozpakuj ZIP do folderu z prawem zapisu (np. Dokumenty) i uruchom AzoneraRPG.exe. Kolejne wersje gra pobierze sama.",
@@ -53,7 +53,7 @@ export const ANDROID_BUILD: ClientBuild = {
   platform: "Android",
   version: "v0.3.14",
   releaseDate: "2026-10-07",
-  fileSize: "0,8 GB",
+  fileSize: "1,4 GB",
   url: RELEASES + "azonera_android_14.apk",
   notes:
     "Wersja testowa (APK spoza Sklepu Play, Android 8.0+, ARM64). Przy instalacji zezwól na instalowanie z nieznanych źródeł. Kolejne wersje gra pobierze sama.",
