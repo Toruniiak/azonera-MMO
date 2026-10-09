@@ -29,20 +29,20 @@ export interface ClientBuild {
   notes?: string;
 }
 
-export const CURRENT_VERSION = "0.3.13";
+export const CURRENT_VERSION = "0.3.14";
 export const RELEASE_DATE = "2026-10-07";
 
 /** Wydania gry (GitHub Releases) — gra po instalacji sama pobiera kolejne wersje. */
-const RELEASES = "https://github.com/azonerapl/azonera-updates/releases/download/v13/";
+const RELEASES = "https://github.com/azonerapl/azonera-updates/releases/download/v14/";
 
 export const PC_BUILD: ClientBuild = {
   id: "pc",
   title: "AZONERA MMO",
   platform: "Windows",
-  version: "v0.3.13",
+  version: "v0.3.14",
   releaseDate: "2026-10-07",
   fileSize: "1,0 GB",
-  url: RELEASES + "azonera_windows_13.zip",
+  url: RELEASES + "azonera_windows_14.zip",
   notes:
     "Wersja testowa. Rozpakuj ZIP do folderu z prawem zapisu (np. Dokumenty) i uruchom AzoneraRPG.exe. Kolejne wersje gra pobierze sama.",
 };
@@ -51,10 +51,10 @@ export const ANDROID_BUILD: ClientBuild = {
   id: "android",
   title: "AZONERA MMO",
   platform: "Android",
-  version: "v0.3.13",
+  version: "v0.3.14",
   releaseDate: "2026-10-07",
   fileSize: "0,8 GB",
-  url: RELEASES + "azonera_android_13.apk",
+  url: RELEASES + "azonera_android_14.apk",
   notes:
     "Wersja testowa (APK spoza Sklepu Play, Android 8.0+, ARM64). Przy instalacji zezwól na instalowanie z nieznanych źródeł. Kolejne wersje gra pobierze sama.",
 };

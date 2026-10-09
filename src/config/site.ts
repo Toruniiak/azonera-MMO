@@ -32,7 +32,7 @@ export const SOCIAL_URLS = {
 export const CURRENT_STATUS = {
   label: "TEST BUILD",
   state: "testing" as "testing" | "planning" | "ready",
-  note: "Wersja testowa 0.3.13 — mapa świata, nowe potwory 3D, gęste lasy jak w Diablo, żywa Placówka i loch Opuszczona Kopalnia",
+  note: "Wersja testowa 0.3.14 — nowe expowiska w Zielonych Łąkach: 14 grup potworów od Placówki po głęboki las",
 } as const;
 
 export const CURRENT_YEAR = 2026;
